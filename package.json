@@ -56,8 +56,8 @@
   },
   "lint-staged": {
     "*.ts": [
-      "npm run lint",
-      "npm run format",
+      "npx eslint .",
+      "prettier --write \"src/**/*.{ts,tsx}\"",
       "git add ."
     ]
   }
