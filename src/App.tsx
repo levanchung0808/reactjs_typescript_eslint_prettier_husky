@@ -6,6 +6,7 @@ import "./App.css";
 
 function App() {
   const a = 10;
+  const b = 20;
 
   return (
     <div className="App">
